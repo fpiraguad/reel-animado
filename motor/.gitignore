@@ -1,0 +1,9 @@
+node_modules
+out/
+salidas/
+public/voz/
+public/musica/
+public/ia/
+src/generado/
+.env
+.DS_Store

@@ -1,0 +1,34 @@
+{
+  "id": "001-demo",
+  "titulo": "3 errores que arruinan tu café en casa",
+  "handle": "@tu_cuenta",
+  "serie": "ejemplo del motor · reel de demostración",
+  "modelo": "Reel de ejemplo del motor: gancho con la creencia (el grano tiene la culpa) → error 1 (agua hirviendo) → errores 2 y 3 (moler antes, medir a ojo) → CTA. Datos de referencia de uso común en barismo: agua de preparación entre 90 y 96 °C (rango de la Specialty Coffee Association) y proporción de partida 1 g de café por cada 16 g de agua. Nada de marcas ni cifras de ventas.",
+  "voz": {
+    "modelo": "mejor"
+  },
+  "escenas": [
+    {
+      "id": "01-gancho",
+      "voz": "[curious] ¿Tu café de casa sabe amargo? No es el grano. Son tres errores.",
+      "visual": { "tipo": "titular", "kicker": "CAFÉ EN CASA", "texto": "3 errores que arruinan tu *café*" }
+    },
+    {
+      "id": "02-agua",
+      "voz": "[conversational] Uno: agua hirviendo. Quema el café. Espera treinta segundos.",
+      "visual": { "tipo": "titular", "kicker": "ERROR 1", "texto": "Agua *hirviendo*" }
+    },
+    {
+      "id": "03-molienda",
+      "voz": "[confident] Dos: molerlo días antes. Muélelo justo antes. Tres: medir a ojo. Un gramo por cada dieciséis de agua.",
+      "visual": { "tipo": "titular", "kicker": "ERRORES 2 Y 3", "texto": "Muele *al momento* y *mide*" }
+    },
+    {
+      "id": "04-cta",
+      "voz": "[friendly] Comenta CAFÉ y te mando la guía con las medidas.",
+      "visual": { "tipo": "leccion", "kicker": "GRATIS", "texto": "Comenta *CAFÉ*", "cta": "Comenta CAFÉ", "ctaEn": "Comenta" }
+    }
+  ],
+  "caption": "👇 Comenta CAFÉ y te mando la guía con las medidas.\n\nTu café no sabe amargo por el grano: casi siempre es el agua hirviendo, moler con días de anticipación o medir a ojo.\n\n¿Cuál de los tres cometías? 👇",
+  "hashtags": ["#cafe", "#cafeencasa", "#barista", "#tips"]
+}

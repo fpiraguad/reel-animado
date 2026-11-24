@@ -1,0 +1,33 @@
+{
+  "name": "reel-animado-motor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "voz": "node scripts/voz.mjs",
+    "voz-prueba": "node scripts/voz-falsa.mjs",
+    "indice": "node scripts/indice-v2.mjs",
+    "render": "node scripts/render-v2.mjs",
+    "fotos": "node scripts/fotos.mjs",
+    "musica": "node scripts/sintetizar-sonido.mjs musica",
+    "studio": "remotion studio",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.505",
+    "@remotion/google-fonts": "4.0.505",
+    "@remotion/light-leaks": "4.0.505",
+    "@remotion/media": "4.0.505",
+    "@remotion/noise": "4.0.505",
+    "@remotion/sfx": "4.0.505",
+    "lucide-react": "0.468.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.505"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "4.0.505",
+    "@remotion/renderer": "4.0.505",
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
